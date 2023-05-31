@@ -1,0 +1,133 @@
+a.active.nav-link
+{
+	background-color: #591791 !important;
+	border-color: #000000 !important;
+	}
+
+.header-tab {
+	margin-top: 70px !important;  
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	height: 200px; 
+	filter: blur(2px); 
+}
+
+.pen {
+	color: #9136DF;
+}
+
+.pen:hover {
+	color: #AE50FF;
+}
+
+.thumbnail {
+	width: 470px; 
+	height: 250px;
+}
+
+.profile-pic {
+	width: 70px; 
+	height: 70px; 
+	border-radius: 50%;
+}
+
+.stream-txt {
+	font-size: 20px;
+	margin-bottom: -2px;
+}
+
+.current-live {
+	border-color: red; border-width: 2px; border-style: solid;
+}
+
+.scroll-comments {
+	overflow-y: auto;
+}
+
+.scroll-comments::-webkit-scrollbar {
+  width: 6px;               /* width of the entire scrollbar */
+}
+
+.scroll-comments::-webkit-scrollbar-track {
+  background: black;        /* color of the tracking area */
+}
+
+.scroll-comments::-webkit-scrollbar-thumb {
+  background-color: #2C2C2C;    /* color of the scroll thumb */
+}
+
+.following-artist {
+	width: 355px; 
+	height:  200px; 
+	padding-right: 5px;
+}
+
+.following-pic {
+	margin-top: 50px; 
+	border-color:#6F16AF; 
+	border-width: 2px; 
+	border-style: solid;
+}
+
+.following-div {
+	margin-top: 5px;
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.following-div:hover{
+	text-decoration-color: #9E18FF;
+}
+
+.following {
+	position: absolute; 
+	margin-top: -200px; 
+	margin-left: 120px;
+}
+
+
+#chatBtn, #commentBtn, #highlightBtn, #heartBtn, #wowBtn, #hahaBtn, #sadBtn {
+	background-color: #5D228D;
+	color: white;
+	border: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.profile-pic-div{
+    height: 500px;
+    width: 900px;
+    border-radius: 50%;
+    border: 1px;
+    border-color: #5D228D;
+    margin: auto;
+}
+
+#profileDisplay{
+    height: 100%;
+    width: 100%;
+}
+
+#file{
+    display: none;
+}
+
+#uploadBtn{
+	text-align: center;
+	margin-left: 445px;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: wheat;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+    font-family: 'Inter', sans-serif;
+    background-color: #101010;
+    color:white;
+}

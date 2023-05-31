@@ -1,0 +1,75 @@
+.home-txt {
+	justify-content: center;
+	text-align: center;
+}
+
+#chev-button:hover {
+	color: #A200FF;
+	cursor: pointer;
+}
+
+.login-form-message,
+.register-form-message {
+	font-size: 15px;
+	text-align: center;
+}
+
+.login-form-message:hover,
+.register-form-message:hover {
+	cursor: default;
+} 
+
+.btn-submit:active,
+.btn-submit:focus {
+    background-color: white !important;
+    color: black;
+	outline: none !important;
+	border: none !important;
+}
+
+#choice {
+	text-align: center; 
+	margin-top: 207px;
+	font-size: 90px;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 5px 5px #ff1f8f;
+}
+
+.btn-choice {
+	margin-top: 50px;
+	font-size: 25px !important;
+	--border-color: white;
+	width: 500px !important; 
+	height: 100px !important;
+}
+
+.btn-choice:hover{
+	color: black !important;
+	background-color: #FFE000 !important;
+	box-shadow: 7px 7px #ff1f8f;
+
+}
+
+.icon-choice {
+	font-size: 25px;
+	margin-left: 10px;
+}
+
+#icon-hdr {
+	color: gray;
+	font-size: 18px;
+	margin-left: 2px;
+}
+
+.icon-hdr-hover {
+	color: white;
+}
+
+.wrapper-concert:hover {
+	cursor: default !important;
+}
+
+.concerts:hover {
+	cursor: default !important;
+}

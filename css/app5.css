@@ -1,0 +1,71 @@
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+.navbar-nav {
+  align-items: center;
+  
+}
+.rgstr {
+  text-align: center;
+}
+.music-nav{
+  columns: 2;
+}
+    .view {
+      height:100%;
+    }
+
+    .navbar-brand {
+      color:#fff !important;
+    }
+
+    .profile-photo {
+      width:48px;
+      height:auto;
+    }
+
+    .flex-menu {
+      display:flex;
+    }
+
+    .flex-menu li:not(:last-child) {
+      margin-right:40px;
+    }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs {
+    color: #495057;
+    background-color: #000000;
+    border-color: #dee2e6 #dee2e6 #5D228D;
+}
+
+@media screen and (max-width: 991px) {
+  .home-txt{
+    font-size: 80px;
+  }
+}
+@media (min-width: 1200px)
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.tab-pane {
+  text-align: center;
+  margin-top: 10px;
+}
+.card {
+  height: 183px;
+  background-color: transparent;
+  align-items: center;
+}

@@ -1,0 +1,40 @@
+
+.ms-parent {
+	width: 460px;
+}
+
+.ms-drop{
+	background-color: black !important;
+	color: white !important;
+}
+
+.ms-drop input[type="radio"], .ms-drop input[type="checkbox"] {
+	margin-left: 650px !important;
+	background: red;
+}
+
+.ms-drop ul {
+	overflow-x: hidden !important;
+}
+
+.ms-select-all {
+	visibility: hidden !important;
+	display: none !important;
+}
+
+.ms-drop.bottom {
+		overflow-x: hidden !important;
+}
+.ms-choice{
+  width: 500px; 
+  background-color: black !important; 
+  height: 35px !important;
+  color:  white !important; 
+  border-radius: 5px;
+  border-color: white;
+}
+
+.ms-choice>span {
+	padding-top: 5px;
+	padding-left: 15px !important;
+}

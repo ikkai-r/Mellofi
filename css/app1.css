@@ -1,1 +1,146 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #101010;
+  color: white;
+}
 
+
+body::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: black;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white;    /* color of the scroll thumb */
+}
+
+.form-btn {
+	color:#5D228D
+}
+
+.btn-modal:active,
+.btn-modal:focus {
+    background-color: black !important;
+	outline: none !important;
+	border: none !important;
+}
+
+.form-btn:hover {
+	text-shadow: 2px 2px #E6DFF2;
+}
+
+.btn-home {
+	font-size: 20px !important;
+    position: absolute;
+  --border-color: white;
+  width: 450px !important; 
+  height: 90px !important;
+}
+
+.btn-home:hover {
+	color: white !important;
+	--border-color: white !important;
+	text-shadow: none !important;
+}
+
+.nav-item-custom {
+	font-size: 20px;
+}
+
+.nav-item-custom:hover{
+	color: #a970ff !important;
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #5D228D !important;
+	box-shadow: 3px 3px #AA00FF;
+	color: white;
+}
+
+.btn:focus,
+.btn:active {
+	outline: none !important;
+	border: none !important;
+	text-decoration: none !important;
+}
+
+span:hover {
+	cursor: pointer;
+	text-shadow: #310F4D !important;
+}
+
+input[type="email"]::placeholder {
+     color: black;
+}
+
+input[type="text"]::placeholder { 
+     color: black;
+}
+
+input[type="password"]::placeholder { 
+    color: black;
+}
+
+form{
+	width: 300px;
+	margin-left: 20px;
+
+}
+form label{
+	display: flex;
+	margin-top: 20px;
+	font-size: 18px
+
+}
+
+.custom-hdr {
+	font-weight: 900;
+	background-color: #000;
+	color: #fff;
+	display: block;
+	padding: .5em;
+	margin-bottom: 35px;
+}
+
+.custom-hdr:nth-child(2){
+	position: absolute;
+	background-color: #fff;
+	color: #000;
+	clip-path: inset(-1% -1% 50% -1%); 
+}
+
+.text-box {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.signup-box{
+	width:360px; 
+	height:auto;
+	margin: auto;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+}
+ form{
+ 	width: 300px;
+ 	margin-left:20px
+ 	font-size:18px;  
+ }
+
+form input {
+width: 100%;
+border:none;
+border-radius: 6px
+outline:none;
+
+}

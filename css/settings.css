@@ -1,0 +1,174 @@
+.tm {
+  width: 40px;
+  height: 40px;
+}
+.tbs {
+  margin: 0px 100px 0px;
+}
+.settings hr {
+  border-top-color: #A200FF;
+}
+.settings li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0px 50px 0px;
+}
+.idit {
+  cursor: pointer; 
+}
+.socmed div{
+  margin-left: 40px;
+}
+.settings {
+  cursor: default;
+  width: 900px;
+}
+.following {
+  margin-left: 50px;
+}
+.form-user {
+  border: 1px; 
+  width: 600px; 
+  height: 40px; 
+  border-color: #4E4E4E; 
+  border-radius: 5px; 
+  border-style: solid; 
+  border-width: 1px; 
+  margin-left: 50px; 
+  background-color: #2F2E2F;
+}
+
+
+.form-bio {
+  border: 1px; 
+  width: 600px; 
+  height: 500px; 
+  border-color: #4E4E4E; 
+  border-radius: 5px; 
+  border-style: solid; 
+  border-width: 1px; 
+  margin-left: 50px; 
+  background-color: #2F2E2F;
+}
+
+.form-user:hover, .form-bio:hover, .form-type:hover, .form-social:hover {
+   border-color: #890ED0;
+    border-width: 2px; 
+   background-color: black;
+} 
+
+.form-user:active {
+   background-color: black;
+     border-color: #890ED0;
+    border-width: 2px; 
+}
+
+input[type="text"]::placeholder { 
+     color: #D3D3D3 !important;
+}
+
+.form-type {
+  width: 600px; 
+  margin-top: 20px; 
+  margin-left: 50px; 
+  background-color: black; 
+  color:  #D3D3D3; 
+  padding-left: 6px; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.form-social {
+  width: 120px; 
+  margin-left: 10px; 
+  background-color: black; 
+  color:  #D3D3D3; 
+  padding-left: 6px; 
+  margin-top: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+input[type="email"]::placeholder {
+    color: #D3D3D3
+}
+
+input[type="password"]::placeholder {
+    color: #D3D3D3
+}
+
+.social-settings {
+  width: 700px; 
+  height: 50px; 
+  background-color: black; 
+  border-radius: 10px;  
+  border-style: solid;  
+  border-color: #4E4E4E;  
+  cursor: default; 
+  border-width: 1px;
+}
+
+
+.sub-settings {
+  width: 550px; 
+  height: 50px; 
+  background-color: black; 
+  border-radius: 10px;  
+  border-style: solid;  
+  border-color: #4E4E4E;  
+  cursor: default; 
+  border-width: 1px;
+}
+
+
+.deleteBtnSettings {
+  color: #AD1622;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 640px;
+  position: absolute;
+  font-size: 25px;
+}
+
+.cancelBtnSettings {
+  color: #AD1622;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 485px;
+  position: absolute;
+  font-size: 25px;
+}
+
+.subscription-artist {
+  background-color: black; 
+  color: #D3D3D3; 
+  width: 440px; 
+  margin-left: 70px; 
+  margin-top: 12px;
+   position: absolute; 
+   cursor: pointer;
+}
+
+.subscription-artist:hover {
+  color: white;
+} 
+
+.deleteBtnSettings:hover, .cancelBtnSettings:hover{
+  color: #D83D49;
+}
+
+.addBtnSettings {
+  color: #F2D522;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 640px;
+  position: absolute;
+  font-size: 25px;
+}
+
+.addBtnSettings:hover{
+  color: #F7E25E;
+}

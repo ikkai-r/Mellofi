@@ -1,0 +1,143 @@
+
+
+.slick-prev:before, .slick-next:before { 
+    color:#A200FF !important;
+}
+
+   /* the slides */
+  .slick-slide {
+    padding: 0 10px;
+  }
+  /* the parent */
+  .slick-list {
+    padding: 0 -10px;
+  }
+
+  .slick-initialized {
+  	margin-left: -25px !important;
+  }
+
+#artist {
+	border-radius: 50%;
+}
+
+.label-txt {
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	margin-left: -12px;
+}
+
+#artist:hover {
+  box-shadow: 10px 2px 1px #A200FF;
+}
+
+#category:hover {
+  box-shadow: 10px 6px 1px #A200FF;
+}
+
+#artist:hover{
+-webkit-filter: blur(2px);
+-moz-filter: blur(2px);
+filter: blur(2px);
+cursor: pointer;
+}
+
+#category {
+	width: 100%;
+	height: auto;
+}
+
+.price-txt {
+	float: right; 
+	margin-top: -200px !important; 
+	margin-right: 15px; 
+	text-shadow:2px 2px green;
+	text-transform: uppercase;
+}
+
+.title {
+	margin-bottom: -7px;
+	margin-left: -2px;
+	text-transform: uppercase;
+	font-size: 30px
+}
+
+ .text {
+	text-transform: uppercase;
+	font-size: 27px;
+	position:absolute; 
+	visibility:hidden;
+	text-shadow: 3px 2px #900C3F;
+	margin-top: -90px; 
+	color: white;
+	}
+
+.custom-container {
+	margin-left: 230px;
+	margin-right: 230px;
+}
+
+.slick-slide-custom {
+	width: 470px !important;
+	height: 265px !important;
+	}
+
+.artist-custom {
+	width: 150px !important;
+	height: 150px !important;
+}
+
+.music-custom {
+	width: 250px !important;
+	height: 250px !important;
+}
+
+.username {
+	margin-left: 13px;
+	text-transform: uppercase;
+}
+
+.concerts {
+	position: absolute;
+	background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)););
+	cursor: pointer;
+}
+
+.play-btn {
+	position: absolute; 
+	z-index: 5; 
+	margin-left: 100px;
+	margin-top: 90px;
+	font-size: 65px;
+	text-shadow: 3px 3px #A200FF;
+	color: white;
+	visibility: hidden;
+}
+
+.profile-img {
+	width: 67px;
+	height: 67px;
+	border-radius: 50%;
+	margin-top: 5px;
+}
+
+.stream-title {
+	font-size: 20px;
+	margin-bottom: -2px;
+	margin-top: -6px
+}
+
+.user-live {
+	font-size: 16px;
+	color: #EFC62E;
+}
+
+.user-live:hover {
+	color: #EFC62E;
+}
+
+.viewer-cnt {
+	font-size: 14px;
+	color: #C8C8C8;
+}
+
